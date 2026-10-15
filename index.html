@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cicidua 的个人主页 · 做一点小工具，追一点喜欢的事" />
+  <meta name="theme-color" content="#FFF7F2" />
+  <title>Cicidua · 个人主页</title>
+  <link rel="icon" href="assets/avatar.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="orbs" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <span class="orb orb-d"></span>
+  </div>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top">Cicidua</a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#projects">项目</a>
+      <a href="#about">关于</a>
+      <a href="#contact">联系</a>
+      <a class="nav-cta" href="https://github.com/Cicidua" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-avatar-wrap reveal">
+          <img
+            class="hero-avatar"
+            src="assets/avatar.png"
+            alt="Cicidua 的头像"
+            width="160"
+            height="160"
+          />
+          <span class="hero-badge">在线 · 摸鱼中</span>
+        </div>
+
+        <p class="hero-kicker reveal">Hey, I'm</p>
+        <h1 class="hero-name reveal">Cicidua</h1>
+        <p class="hero-tagline reveal">
+          做一点小工具，追一点喜欢的事。<br />
+          在浏览器里造一点小魔法。
+        </p>
+
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#projects">看看我做过什么</a>
+          <a class="btn btn-ghost" href="https://github.com/Cicidua" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.43 7.86 10.96.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.71 1.27 3.37.97.1-.75.4-1.27.73-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16 0 1.56-.01 2.81-.01 3.19 0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.74 18.27.5 12 .5Z"/>
+            </svg>
+            去 GitHub
+          </a>
+        </div>
+
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <strong>1</strong>
+            <span>公开项目</span>
+          </div>
+          <div class="stat">
+            <strong>MV3</strong>
+            <span>浏览器扩展</span>
+          </div>
+          <div class="stat">
+            <strong>MIT</strong>
+            <span>开源协议</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <p class="section-kicker">Projects</p>
+        <h2 class="section-title">最近在做的事</h2>
+        <p class="section-desc">把追星时的小麻烦，做成顺手的小工具。</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-tag">Browser Extension</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3 class="project-title">SMTOWN 补货提醒</h3>
+          <p class="project-desc">
+            监控 SMTOWN &amp;STORE 心愿单 / 收藏里的售罄商品，一补货就弹通知，
+            并直接打开商品页。Edge / Chrome 都能用。
+          </p>
+          <ul class="project-points">
+            <li>同步心愿单与收藏列表</li>
+            <li>定时巡检售罄状态</li>
+            <li>补货后系统通知 + 跳转商品页</li>
+          </ul>
+          <div class="project-links">
+            <a class="link-btn" href="https://github.com/Cicidua/Smtown-Restock-Alert" target="_blank" rel="noopener noreferrer">
+              查看仓库
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-soft reveal">
+          <div class="project-top">
+            <span class="project-tag">Coming soon</span>
+            <span class="project-year">…</span>
+          </div>
+          <h3 class="project-title">下一个灵感</h3>
+          <p class="project-desc">
+            还在想。也许是一个更温柔的收藏管理工具，
+            也许是一套好看的小页面。想到就做。
+          </p>
+          <ul class="project-points">
+            <li>保持好奇</li>
+            <li>先做出来再说</li>
+            <li>欢迎来聊想法</li>
+          </ul>
+          <div class="project-links">
+            <a class="link-btn" href="https://github.com/Cicidua" target="_blank" rel="noopener noreferrer">
+              关注更新
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about">
+      <div class="about-panel reveal">
+        <div class="about-left">
+          <p class="section-kicker">About</p>
+          <h2 class="section-title">关于我</h2>
+          <p class="about-text">
+            你好呀，我是 <strong>Cicidua</strong>。<br />
+            平时喜欢写一点浏览器小工具，把重复又琐碎的事情自动化；
+            也喜欢 SMTOWN，逛 &amp;STORE 的时候顺手把补货提醒做了出来。
+          </p>
+          <p class="about-text">
+            这个主页是用 GitHub Pages 免费托管的。
+            互联网这么大，能有一小块自己的角落，已经很幸福了。
+          </p>
+        </div>
+
+        <div class="about-right">
+          <div class="chip-card">
+            <h3>兴趣</h3>
+            <div class="chips">
+              <span class="chip chip-pink">SMTOWN</span>
+              <span class="chip chip-purple">浏览器扩展</span>
+              <span class="chip chip-blue">前端小页面</span>
+              <span class="chip chip-cream">开源工具</span>
+            </div>
+          </div>
+          <div class="chip-card">
+            <h3>技能点</h3>
+            <div class="chips">
+              <span class="chip">JavaScript</span>
+              <span class="chip">WebExtensions</span>
+              <span class="chip">HTML / CSS</span>
+              <span class="chip">Manifest V3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="contact-card reveal">
+        <p class="section-kicker">Say hi</p>
+        <h2 class="section-title">来找我玩呀</h2>
+        <p class="section-desc">
+          项目想法、使用问题、或者只是想打个招呼，都欢迎。
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://github.com/Cicidua" target="_blank" rel="noopener noreferrer">GitHub @Cicidua</a>
+          <a class="btn btn-ghost" href="https://github.com/Cicidua/Smtown-Restock-Alert/issues" target="_blank" rel="noopener noreferrer">提个 Issue</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Cicidua · 用 ♥ 和 GitHub Pages 搭起来</p>
+    <p class="footer-sub">free forever · hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
